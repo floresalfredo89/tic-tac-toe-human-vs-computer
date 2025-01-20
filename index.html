@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Gato</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Juego del gato (Tres en línea)</h2>
+        <!-- <button onclick="accionBot()">Empieza Oponente</button> -->
+        <div class="tablero">
+            <div id="00" class="boton" onclick="accion(0,0,'00','X')"></div>
+            <div id="01" class="boton" onclick="accion(0,1,'01','X')"></div>
+            <div id="02" class="boton" onclick="accion(0,2,'02','X')"></div>
+            <div id="10" class="boton" onclick="accion(1,0,'10','X')"></div>
+            <div id="11" class="boton" onclick="accion(1,1,'11','X')"></div>
+            <div id="12" class="boton" onclick="accion(1,2,'12','X')"></div>
+            <div id="20" class="boton" onclick="accion(2,0,'20','X')"></div>
+            <div id="21" class="boton" onclick="accion(2,1,'21','X')"></div>
+            <div id="22" class="boton" onclick="accion(2,2,'22','X')"></div>
+
+        </div>
+
+        <h2 id="resultado"></h2>
+        
+    </div>
+    
+    <script type="text/javascript" src="gato.js"></script>
+</body>
+</html>
