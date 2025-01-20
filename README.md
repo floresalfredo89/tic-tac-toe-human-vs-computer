@@ -43,7 +43,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed if you decide to imp
 1. **Clonar Repositorio / Clone Repository**
    ```bash
    git clone https://github.com/floresalfredo89/tic-tac-toe-human-vs-computer.git
-   cd juego-del-gato
+   cd tic-tac-toe-human-vs-computer
 ### Uso / Usage
 #### Español
 
